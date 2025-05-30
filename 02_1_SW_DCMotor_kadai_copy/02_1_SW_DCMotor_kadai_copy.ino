@@ -14,6 +14,6 @@ void loop() {
 }
 
 void motor_blink(){
-  delay(15);
+  delay(10);
   state = !state;
 }
