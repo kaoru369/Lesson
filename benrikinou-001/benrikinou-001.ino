@@ -20,8 +20,8 @@ void loop() {
     digitalWrite(ledPin, HIGH);
     delay(1000);
     digitalWrite(ledPin, LOW);
+    Serial.println(" " + String(Count) + " 回目 点灯確認　ヨシ！");
     Count = 0;
-    Serial.println(" 5 回目 点灯確認　ヨシ！");
   }
   
   delay(100);
